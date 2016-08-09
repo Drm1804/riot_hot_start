@@ -1,0 +1,28 @@
+<todo>
+
+    <!-- шаблон -->
+    <h3>{ opts.title }</h3>
+    <p id="findMe">Я существую?</p>
+
+
+    <style scoped>
+        :scope {
+            display: block;
+            border: 1px solid yellow;
+        }
+        h3 {
+            font-size: 120%;
+            color: red;
+        }
+        /** стили **/
+    </style>
+
+    <script>
+        this.on('mount', function(){
+            var findMe =  $('p', this.root);
+            console.log(this.root);
+            console.log('findMe: ', findMe);
+        })
+    </script>
+
+</todo>

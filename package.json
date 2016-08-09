@@ -1,0 +1,17 @@
+{
+  "name": "riot_hot_start",
+  "version": "1.0.0",
+  "description": "riot_hot_start",
+  "main": "",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drm1804",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-riot": "^0.5.2"
+  }
+}
